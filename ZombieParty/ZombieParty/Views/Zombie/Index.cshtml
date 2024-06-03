@@ -1,0 +1,18 @@
+﻿<div class="container p-3">
+    <div class="row">
+        <div>
+            <h3>NAME</h3>
+            <h5>POINT</h5>
+        </div>
+    </div>
+        @foreach (var item in this.ViewBag.MaListe)
+        {
+            <div href="#" class="card  border m-3 text-center bg-warning" style="width: 20rem; background-image: url('/images/imagesLayout/Fond.png'); ">
+                <div class="card-body  text-warning">
+
+                <h3 class="card-title">  @item.Name</h3>
+                    <h5> @item.Point</h5>
+                </div>
+            </div>
+        }
+</div>
