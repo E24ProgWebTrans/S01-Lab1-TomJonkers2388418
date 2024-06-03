@@ -16,5 +16,12 @@ namespace ZombieParty.Controllers
             return View();
         }
 
+        //GET CREATE
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+
     }
 }
